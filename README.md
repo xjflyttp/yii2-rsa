@@ -36,4 +36,4 @@ var_dump('private', $str, $privateEncryptString, $publicDecryptString);
 $publicEncryptString = RsaPublic::model($publicKey)->encrypt($str);
 $privateDecryptString = RsaPrivate::model($privateKey)->decrypt($publicEncryptString);
 var_dump('public', $str, $publicEncryptString, $privateDecryptString);
-
+```
