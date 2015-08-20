@@ -25,7 +25,7 @@ class RsaPublic extends Object {
      * Factory
      * @param string $key KeyPath | KeyContent
      * @param string $passphrase
-     * @return RsaPrivate
+     * @return RsaPublic
      * @throws \yii\base\Exception
      */
     public static function model($key, $passphrase = '') {
