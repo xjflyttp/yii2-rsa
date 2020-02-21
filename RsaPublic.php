@@ -3,9 +3,9 @@
 namespace xj\rsa;
 
 use Yii;
-use yii\base\Object;
+use yii\base\BaseObject;
 
-class RsaPublic extends Object {
+class RsaPublic extends BaseObject {
 
     /**
      * Certificate
